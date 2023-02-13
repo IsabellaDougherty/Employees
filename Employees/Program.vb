@@ -1,7 +1,8 @@
 Imports System
 
-Module Program
-    Sub Main(args As String())
-        Console.WriteLine("Hello World!")
+Module EmployeeDirectory
+    Sub Main()
+        Dim billy As New Employee("Billy", "Joel")
+        Console.WriteLine(billy.firstName + " " + billy.lastName)
     End Sub
 End Module
